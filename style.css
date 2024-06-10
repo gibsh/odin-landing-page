@@ -98,7 +98,7 @@ body, html {
     overflow-x:hidden; 
 }
 
-/* INFO SECTION (SECTION II) */
+/* INFO SECTION */
 
 .info-text {
     display:flex;
@@ -138,7 +138,7 @@ body, html {
     overflow-wrap: break-word;
 }
 
-/* QUOTE SECTION (SECTION III) */
+/* QUOTE SECTION */
 .quote{
     display: flex;
     text-align: center;
@@ -154,8 +154,8 @@ body, html {
     font-size: 35px;
     overflow-wrap: break-word;
     text-align: center;
-    padding-left: 520px;
-    padding-right: 520px;
+    padding-left: 120px;
+    padding-right: 120px;
     scale: 102%;
   }
 
@@ -164,6 +164,39 @@ body, html {
     width:70%;
     font-weight: bolder;
     font-size:25px;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: right;
+}
+
+/* SIGN UP SECTION */
+.signup {
+    display:flex;
+    justify-content: center;
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #3882F6;
+    width: 900px;
+
+}
+
+.signup-text{
+    display: block;
+    margin:30px;
+    font-size: 20px;
+    
+}
+
+.signup-button{
+    display:flex;
+    justify-content: right;
+    flex-direction:column;
+    background-color:red;
+
+}
+
+.bolder-signup-text{
+    font-weight: 900;
+    font-size: 25px;
+    color:white;
 }
