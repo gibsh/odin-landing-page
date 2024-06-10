@@ -91,10 +91,54 @@ header {
 img {
     width: 50%;
 }
-
+/*oh also body i guess idk*/
 body, html {
     margin: 0;
+    overflow-y: scroll; 
+    overflow-x:hidden; 
 }
 
 /* INFO SECTION (SECTION II) */
 
+.info-text {
+    display:flex;
+    justify-content: center;
+    color:black;
+    font-weight: 300px;
+    font-size: 35px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.frame-png {
+    border-radius: 15px;
+    border-color: #3882F6;
+    border-style: outset;
+    height: 160px;
+    width: 160px;
+}
+
+.info-frames {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-inline: 50px;
+}
+
+.frame  {
+    padding: 25px;
+}
+
+.frame-text {
+    color: gray;
+    font-weight: 400;
+    padding-top:15px;
+    inline-size: 170px;
+    overflow-wrap: break-word;
+}
+
+/* QUOTE SECTION (SECTION III) */
+.quote{
+    display: flex;
+    background-color: gray;
+}
