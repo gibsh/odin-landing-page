@@ -133,6 +133,7 @@ body, html {
     color: gray;
     font-weight: 400;
     padding-top:15px;
+    padding-bottom:70px;
     inline-size: 170px;
     overflow-wrap: break-word;
 }
@@ -140,5 +141,27 @@ body, html {
 /* QUOTE SECTION (SECTION III) */
 .quote{
     display: flex;
-    background-color: gray;
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    padding-top: 200px;
+    padding-bottom:250px;
+
+}
+
+.quote-text{
+    color:black;
+    font-weight: 300;
+    font-size: 35px;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+.quote-text-author{
+    color:black;
+    width: 900px;
+    font-weight: bolder;
+    font-size:25px;
+    text-align: center;
 }
